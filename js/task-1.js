@@ -1,9 +1,9 @@
-const listItem = document.querySelector('#categories');
-const item = listItem.querySelectorAll('.item');
+const listEl = document.querySelector('#categories');
+const itemEl = listEl.querySelectorAll('.item');
 
-console.log(`Number of category: ${item.length}`);
+console.log(`Number of category: ${itemEl.length}`);
 
-item.forEach(item => {
+itemEl.forEach(item => {
   const textTitle = item.querySelector('h2').textContent;
   const sumElements = item.querySelectorAll('li').length;
 

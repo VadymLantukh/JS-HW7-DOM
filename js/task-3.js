@@ -1,10 +1,10 @@
-const textInput = document.querySelector('#name-input');
-const output = document.querySelector('#name-output');
+const inputEl = document.querySelector('#name-input');
+const outputEl = document.querySelector('#name-output');
 
-textInput.addEventListener('input', event => {
-  const cleanSpaceValue = textInput.value.trim();
+inputEl.addEventListener('input', event => {
+  const cleanSpaceValue = inputEl.value.trim();
 
   cleanSpaceValue !== ''
-    ? (output.textContent = cleanSpaceValue)
-    : (output.textContent = 'Anonymous');
+    ? (outputEl.textContent = cleanSpaceValue)
+    : (outputEl.textContent = 'Anonymous');
 });

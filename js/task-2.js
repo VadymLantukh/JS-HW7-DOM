@@ -25,14 +25,14 @@ const images = [
   },
 ];
 
-const gallery = document.querySelector('.gallery');
+const galleryListEl = document.querySelector('.gallery');
 
 images.slice(0, 3).map(({ url, alt }) => {
-  const createLi = document.createElement('li');
-  const createImg = document.createElement('img');
-  createImg.src = url;
-  createImg.alt = alt;
+  const createLiEl = document.createElement('li');
+  const createImgEl = document.createElement('img');
+  createImgEl.src = url;
+  createImgEl.alt = alt;
 
-  createLi.append(createImg);
-  gallery.append(createLi);
+  createLiEl.append(createImgEl);
+  galleryListEl.append(createLiEl);
 });
