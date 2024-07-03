@@ -15,6 +15,16 @@ body {
   line-height: 1.5;
 }
 
+#categories {
+  background-color: #fff;
+  width: 440px;
+  height: 888px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 #categories .item {
 background-color: #f6f6fe;
 border-radius: 8px;
@@ -97,8 +107,13 @@ color: #2e2f42;
 }
 
 .login-form {
+  width: 408px;
+  height: 256px;
+  justify-content: center;
   display: flex;
   flex-direction: column;
+  background-color: #fff;
+  padding: 0 24px;
 }
 
 .login-form label {
@@ -132,6 +147,40 @@ cursor: pointer;
 background-color: #4e75ff;
 border: 0;
 font-family: "Montserrat", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #fff;
+}
+
+.widget {
+  width: 345px;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.widget p {
+font-family: "Montserrat", sans-serif;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #2e2f42;
+}
+
+.change-color {
+  width: 148px;
+  height: 40px;
+  border: 0;
+  cursor: pointer;
+  border-radius: 8px;
+  background-color: #4E75FF;
+  font-family: "Montserrat", sans-serif;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
