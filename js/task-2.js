@@ -28,11 +28,11 @@ const images = [
 const galleryListEl = document.querySelector('.gallery');
 
 images.slice(0, 3).map(({ url, alt }) => {
-  const createLiEl = document.createElement('li');
-  const createImgEl = document.createElement('img');
-  createImgEl.src = url;
-  createImgEl.alt = alt;
+  const newElemLi = document.createElement('li');
+  const newElemImg = document.createElement('img');
+  newElemImg.src = url;
+  newElemImg.alt = alt;
 
-  createLiEl.append(createImgEl);
-  galleryListEl.append(createLiEl);
+  newElemLi.append(newElemImg);
+  galleryListEl.append(newElemLi);
 });
