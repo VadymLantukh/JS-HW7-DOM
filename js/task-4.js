@@ -1,5 +1,4 @@
 const registerformEl = document.querySelector('.login-form');
-
 registerformEl.addEventListener('submit', formSubmission);
 
 function formSubmission(event) {

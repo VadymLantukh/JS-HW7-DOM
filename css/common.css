@@ -17,7 +17,6 @@ body {
 
 #categories {
   background-color: #fff;
-  width: 440px;
   height: 888px;
   display: flex;
   flex-direction: column;
@@ -26,40 +25,39 @@ body {
 }
 
 #categories .item {
-background-color: #f6f6fe;
-border-radius: 8px;
-padding: 16px;
-width: 392px;
-list-style: none;
+  background-color: #f6f6fe;
+  border-radius: 8px;
+  padding: 16px;
+  list-style: none;
 }
 
-#categories .item:not(:last-child){
+#categories .item:not(:last-child) {
   margin-bottom: 24px;
 }
 
 #categories .item h2 {
-  font-family: "Montserrat", sans-serif;
-font-weight: 600;
-font-size: 24px;
-line-height: 1.33;
-letter-spacing: 0.04em;
-color: #2e2f42;
-margin-bottom: 16px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  margin-bottom: 16px;
 }
 
 #categories .item li {
-border: 1px solid #808080;
-border-radius: 4px;
-width: 360px;
-height: 40px;
-list-style: none;
-font-family: "Montserrat", sans-serif;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.04em;
-color: #2e2f42;
-padding: 8px 0 8px 16px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+  list-style: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  padding: 8px 0 8px 16px;
 }
 
 #categories .item li:not(:last-child) {
@@ -81,29 +79,29 @@ padding: 8px 0 8px 16px;
 }
 
 #name-input {
-width: 360px;
-height: 40px;
-border: 1px solid #808080;
-border-radius: 4px;
+  width: 360px;
+  height: 40px;
+  border: 1px solid #808080;
+  border-radius: 4px;
 }
 
-#name-input::placeholder{
-padding-left: 16px;
-font-family: "Montserrat", sans-serif;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.04em;
-color: #2e2f42;
+#name-input::placeholder {
+  padding-left: 16px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
 }
 
 #name-input h1 {
-font-family: "Montserrat", sans-serif;
-font-weight: 600;
-font-size: 24px;
-line-height: 1.33;
-letter-spacing: 0.04em;
-color: #2e2f42;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
 }
 
 .login-form {
@@ -117,41 +115,41 @@ color: #2e2f42;
 }
 
 .login-form label {
-display: flex;
-flex-direction: column;
-font-family: "Montserrat", sans-serif;
-line-height: 1.5;
-letter-spacing: 0.04em;
-color: #2e2f42;
-gap: 8px;
-margin-bottom: 8px;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  gap: 8px;
+  margin-bottom: 8px;
 }
 
 .login-form label:last-of-type {
-  margin-bottom: 16px; 
+  margin-bottom: 16px;
 }
 
 .login-form input {
-border: 1px solid #808080;
-border-radius: 4px;
-width: 360px;
-height: 40px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
 }
 
 .login-form button {
-border-radius: 8px;
-padding: 8px 16px;
-width: 86px;
-height: 40px;
-cursor: pointer;
-background-color: #4e75ff;
-border: 0;
-font-family: "Montserrat", sans-serif;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.04em;
-color: #fff;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 86px;
+  height: 40px;
+  cursor: pointer;
+  background-color: #4e75ff;
+  border: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
 }
 
 .widget {
@@ -167,10 +165,10 @@ color: #fff;
 }
 
 .widget p {
-font-family: "Montserrat", sans-serif;
-line-height: 1.5;
-letter-spacing: 0.04em;
-color: #2e2f42;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
 }
 
 .change-color {
@@ -179,11 +177,68 @@ color: #2e2f42;
   border: 0;
   cursor: pointer;
   border-radius: 8px;
-  background-color: #4E75FF;
-  font-family: "Montserrat", sans-serif;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.04em;
-color: #fff;
+  background-color: #4e75ff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+#controls {
+  display: flex;
+  column-gap: 16px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  padding: 32px;
+  width: 486px;
+  height: 104px;
+  background-color: #f6f6fe;
+}
+
+#controls input {
+  border: 1px solid #808080;
+  border-radius: 8px;
+  padding: 8px 0 8px 0;
+  padding-left: 72px;
+  width: 150px;
+  height: 40px;
+  background-color: transparent;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+#controls button {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 120px;
+  height: 40px;
+  border: 0;
+  background-color: #4e75ff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  cursor: pointer;
+}
+
+#controls button:last-child {
+  background-color: #ff4e4e;
+}
+
+#boxes {
+  border-radius: 8px;
+  width: 486px;
+  padding: 32px;
+  min-height: 134px;
+  background-color: #f6f6fe;
+  display: flex;
+  column-gap: 44px;
+  flex-wrap: wrap;
 }
